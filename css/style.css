@@ -5,14 +5,20 @@ body {
     margin: 0;
 }
 
-.header {
+.hero {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     background-color: #1F2937;
     color: white;
     padding: 0 100px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .links {
@@ -28,10 +34,16 @@ body {
     padding: 50px 0px;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 50px 100px;
     justify-content: space-between;
     align-items: center;
     
+}
+
+.main-button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 4px 10px;
+    border-style: none;
 }
 
 .header-text {
